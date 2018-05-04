@@ -1,0 +1,78 @@
+
+body{
+    background-color: #41224f;
+
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    /* background: indianred */
+}
+
+.col-4 {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 5px;
+    max-width: 30%;
+    text-align: center;
+}
+
+.container {
+    margin: auto
+}
+
+.default {
+    background-color: gray;
+}
+
+
+
+@keyframes animatedBackground {
+	from { background-position: 100% 0; }
+	to { background-position: 0 0; }
+}
+
+#panther	{
+    background-image: url(https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Animals-PNG/Black_Panther_PNG_Clip_Art_Image.png?m=1515210902);
+
+	background-repeat: repeat-x;
+
+	animation: animatedBackground 40s linear infinite;
+}
+
+#panther {
+    text-align: center;
+    color: #d6ea3a;
+    margin: 25px;
+    /* background-image: url(https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Animals-PNG/Black_Panther_PNG_Clip_Art_Image.png?m=1515210902); */
+    background-size: 20%;
+    background-color: purple;
+    padding: 30px;
+    border-style: solid, 100px;
+    border-color: plum
+
+}
+
+#addTask {
+    margin:15px;
+    background-color: gray;
+}
+
+.working {
+    background-color: goldenrod;
+}
+
+.done {
+    background-color: greenyellow;
+}
+
+.rework {
+    background-color: indianred;
+}
+
+.card {
+    padding: 10px;
+    margin: 5px;
+}
