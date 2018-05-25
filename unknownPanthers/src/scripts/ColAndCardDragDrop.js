@@ -21,6 +21,7 @@ function drop(ev) {
             ev.target.appendChild(document.getElementById(data));
         }
         document.getElementById(data).classList = "card rework"
+        document.getElementById(data).removeChild(document.getElementById(data).lastChild)
     }
     else if (ev.target === document.getElementById("Doing") || ev.target.parentNode === document.getElementById("Doing")) {
         if (ev.target.parentNode === document.getElementById("Doing")) {
